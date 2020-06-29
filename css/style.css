@@ -18,7 +18,7 @@ body, html{
     color:#666;
   }
   
-  .pimg1, .pimg2, .pimg3{
+  .pimg1, .pimg2, .pimg3,.pimg4, .pimg5{
     position:relative;
     opacity:0.90;
     background-position:center;
@@ -37,17 +37,26 @@ body, html{
   
   .pimg2{
     background-image:url('img/pic2.jpg');
-    min-height:800px;
+    min-height:700px;
   }
   
   .pimg3{
     background-image:url('img/pic3.jpg');
-    min-height:700px;
+    min-height:600px;
+  }
+  .pimg4{
+    background-image:url('img/pic4.jpg');
+    min-height:500px;
+  }
+  .pimg5
+  {
+    background-image:url('img/pic4.jpg');
+    min-height:500px;
   }
   
   .section{
     text-align:center;
-    padding:50px 80px;
+    padding:30px 60px;
   }
   
   .section-light{
@@ -66,7 +75,7 @@ body, html{
     width:100%;
     text-align:center;
     color:#000;
-    font-size:27px;
+    font-size:20px;
     letter-spacing:8px;
     text-transform:uppercase;
   }
@@ -82,7 +91,7 @@ body, html{
   }
   
   @media(max-width:568px){
-    .pimg1, .pimg2, .pimg3{
+    .pimg1, .pimg2, .pimg3, .pimg4{
       background-attachment:scroll;
     }
   }
